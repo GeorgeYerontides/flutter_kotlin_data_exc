@@ -11,35 +11,43 @@
   <artifactId>flutter_debug</artifactId>
   <version>1.0</version>
   <packaging>aar</packaging>
+  <distributionManagement>
+    <relocation>
+      <groupId>com.example.flutter_module</groupId>
+      <artifactId>flutter</artifactId>
+      <version>1.0</version>
+      <message>Use classifiers rather than _variant for new publish plugin</message>
+    </relocation>
+  </distributionManagement>
   <dependencies>
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>flutter_embedding_debug</artifactId>
-      <version>1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b</version>
+      <version>1.0.0-5c984c26ebc4a0a8897305d3c6bef70ced91090d</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>armeabi_v7a_debug</artifactId>
-      <version>1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b</version>
+      <version>1.0.0-5c984c26ebc4a0a8897305d3c6bef70ced91090d</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>arm64_v8a_debug</artifactId>
-      <version>1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b</version>
+      <version>1.0.0-5c984c26ebc4a0a8897305d3c6bef70ced91090d</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>x86_64_debug</artifactId>
-      <version>1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b</version>
+      <version>1.0.0-5c984c26ebc4a0a8897305d3c6bef70ced91090d</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.flutter</groupId>
       <artifactId>x86_debug</artifactId>
-      <version>1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b</version>
+      <version>1.0.0-5c984c26ebc4a0a8897305d3c6bef70ced91090d</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>
