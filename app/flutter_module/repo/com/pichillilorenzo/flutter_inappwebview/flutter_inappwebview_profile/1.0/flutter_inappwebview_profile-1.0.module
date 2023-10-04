@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.pichillilorenzo.flutter_inappwebview",
+    "module": "flutter_inappwebview_profile",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-b8d35810e91ab8fc39ba5e7a41bff6f697e8e3a8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_inappwebview_profile-1.0.aar",
+          "url": "flutter_inappwebview_profile-1.0.aar",
+          "size": 359161,
+          "sha512": "d25c5ee74a7d01708d1231d39316786651ba0e2622dfbf071c78b5e869fdb2e1712c093bbde918d25324bfcf9e1e2e390f8408fa5d9e1fa17c3896e20c379f0a",
+          "sha256": "6edec928f6dcc48582e0a732057b4f0de3f9e3715dc11287274c0909c6d607a6",
+          "sha1": "4634d9636be6f3a87fa00d3b539955eedea2654e",
+          "md5": "541e4ff892afa5a2fd53e79cfab57ef2"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-b8d35810e91ab8fc39ba5e7a41bff6f697e8e3a8"
+          }
+        },
+        {
+          "group": "androidx.webkit",
+          "module": "webkit",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.browser",
+          "module": "browser",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "3.14.9"
+          }
+        },
+        {
+          "group": "androidx.swiperefreshlayout",
+          "module": "swiperefreshlayout",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_inappwebview_profile-1.0.aar",
+          "url": "flutter_inappwebview_profile-1.0.aar",
+          "size": 359161,
+          "sha512": "d25c5ee74a7d01708d1231d39316786651ba0e2622dfbf071c78b5e869fdb2e1712c093bbde918d25324bfcf9e1e2e390f8408fa5d9e1fa17c3896e20c379f0a",
+          "sha256": "6edec928f6dcc48582e0a732057b4f0de3f9e3715dc11287274c0909c6d607a6",
+          "sha1": "4634d9636be6f3a87fa00d3b539955eedea2654e",
+          "md5": "541e4ff892afa5a2fd53e79cfab57ef2"
+        }
+      ]
+    }
+  ]
+}

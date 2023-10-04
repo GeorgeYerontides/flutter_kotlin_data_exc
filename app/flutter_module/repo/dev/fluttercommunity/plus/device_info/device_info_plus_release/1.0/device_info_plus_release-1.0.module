@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.fluttercommunity.plus.device_info",
+    "module": "device_info_plus_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-b8d35810e91ab8fc39ba5e7a41bff6f697e8e3a8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "device_info_plus_release-1.0.aar",
+          "url": "device_info_plus_release-1.0.aar",
+          "size": 9341,
+          "sha512": "89e4008efc33f5cb12db6e45536866d56c2f974b3910f9ef8af3926549278028222d143bee717fe721751dc1c8747da74b2b1cb1d37127b497e95cd3c11c6522",
+          "sha256": "bf3c2c12be7610943a8fa909057c7e4e5e7b2db62518ac00b95f24a4ced31100",
+          "sha1": "661b0ce11cc09f005972ca848db394a959c19321",
+          "md5": "a4a9750f9f5a99e4f3a8fe8f0dbacb3a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-b8d35810e91ab8fc39ba5e7a41bff6f697e8e3a8"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.7.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "device_info_plus_release-1.0.aar",
+          "url": "device_info_plus_release-1.0.aar",
+          "size": 9341,
+          "sha512": "89e4008efc33f5cb12db6e45536866d56c2f974b3910f9ef8af3926549278028222d143bee717fe721751dc1c8747da74b2b1cb1d37127b497e95cd3c11c6522",
+          "sha256": "bf3c2c12be7610943a8fa909057c7e4e5e7b2db62518ac00b95f24a4ced31100",
+          "sha1": "661b0ce11cc09f005972ca848db394a959c19321",
+          "md5": "a4a9750f9f5a99e4f3a8fe8f0dbacb3a"
+        }
+      ]
+    }
+  ]
+}

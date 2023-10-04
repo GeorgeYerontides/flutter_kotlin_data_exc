@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.steenbakker.nordicdfu",
+    "module": "nordic_dfu_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-b8d35810e91ab8fc39ba5e7a41bff6f697e8e3a8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nordic_dfu_release-1.0.aar",
+          "url": "nordic_dfu_release-1.0.aar",
+          "size": 17157,
+          "sha512": "22645daa258c5527926d0c884eac1a207adba4851f67df5148a5b515e1a01f3555eccacf0f9822aff2bf7e9ca29a255c035abc6258c68827f8adba73d9b9c4a1",
+          "sha256": "fbd0b707b4cd67798108726cc1db645a0dc8f82389e200d451422523c4bddc98",
+          "sha1": "90c0a75533094b4ae47e73e719a128a232d7ca58",
+          "md5": "bb1bfcab018d4aef1134614ff20e7b95"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-b8d35810e91ab8fc39ba5e7a41bff6f697e8e3a8"
+          }
+        },
+        {
+          "group": "no.nordicsemi.android",
+          "module": "dfu",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nordic_dfu_release-1.0.aar",
+          "url": "nordic_dfu_release-1.0.aar",
+          "size": 17157,
+          "sha512": "22645daa258c5527926d0c884eac1a207adba4851f67df5148a5b515e1a01f3555eccacf0f9822aff2bf7e9ca29a255c035abc6258c68827f8adba73d9b9c4a1",
+          "sha256": "fbd0b707b4cd67798108726cc1db645a0dc8f82389e200d451422523c4bddc98",
+          "sha1": "90c0a75533094b4ae47e73e719a128a232d7ca58",
+          "md5": "bb1bfcab018d4aef1134614ff20e7b95"
+        }
+      ]
+    }
+  ]
+}

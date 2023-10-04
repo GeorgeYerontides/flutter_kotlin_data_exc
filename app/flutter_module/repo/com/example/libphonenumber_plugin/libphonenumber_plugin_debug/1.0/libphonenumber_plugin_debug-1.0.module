@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.libphonenumber_plugin",
+    "module": "libphonenumber_plugin_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-b8d35810e91ab8fc39ba5e7a41bff6f697e8e3a8"
+          }
+        },
+        {
+          "group": "com.googlecode.libphonenumber",
+          "module": "libphonenumber",
+          "version": {
+            "requires": "8.13.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "libphonenumber_plugin_debug-1.0.aar",
+          "url": "libphonenumber_plugin_debug-1.0.aar",
+          "size": 9617,
+          "sha512": "467b2ef1b36a743e9818c8c60064499e7bb141b92240f1c2f31706e2120ad89ad29684c0a76be9bef19b2af78ddb7d1720808679d33b267f6080f10eb22a110f",
+          "sha256": "c183521c9ce292a3bdb89c03fc56be46975ab2e3063aa444d1eb0550e5d5e029",
+          "sha1": "43016990bb6e050fd637baa0f974f0012c2cf5b6",
+          "md5": "c57404d43298589f49e6d5b7742b2afc"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-b8d35810e91ab8fc39ba5e7a41bff6f697e8e3a8"
+          }
+        },
+        {
+          "group": "com.googlecode.libphonenumber",
+          "module": "libphonenumber",
+          "version": {
+            "requires": "8.13.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "libphonenumber_plugin_debug-1.0.aar",
+          "url": "libphonenumber_plugin_debug-1.0.aar",
+          "size": 9617,
+          "sha512": "467b2ef1b36a743e9818c8c60064499e7bb141b92240f1c2f31706e2120ad89ad29684c0a76be9bef19b2af78ddb7d1720808679d33b267f6080f10eb22a110f",
+          "sha256": "c183521c9ce292a3bdb89c03fc56be46975ab2e3063aa444d1eb0550e5d5e029",
+          "sha1": "43016990bb6e050fd637baa0f974f0012c2cf5b6",
+          "md5": "c57404d43298589f49e6d5b7742b2afc"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.signify.hue.flutterreactiveblelib",
+    "module": "reactive_ble_mobile_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-b8d35810e91ab8fc39ba5e7a41bff6f697e8e3a8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "reactive_ble_mobile_debug-1.0.aar",
+          "url": "reactive_ble_mobile_debug-1.0.aar",
+          "size": 300035,
+          "sha512": "4976b69b27e0212eb56498dd1d218e02b0a613dc8cc68211e354f4dc47570a64527f2f48f80fa3f32c6cf2fe5cc0256debf1a59a6552c2df2f0078af2dc41025",
+          "sha256": "0d90c9ab50fa93242767527c543a87148c1f490504035067796a29ed1f984834",
+          "sha1": "6f5afee360c7c8095fc317f96f2b2a59bb2ce123",
+          "md5": "bf0dd502fef2cc613fdb5bc2219f63fb"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-b8d35810e91ab8fc39ba5e7a41bff6f697e8e3a8"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.5.31"
+          }
+        },
+        {
+          "group": "com.polidea.rxandroidble2",
+          "module": "rxandroidble",
+          "version": {
+            "requires": "1.16.0"
+          }
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-javalite",
+          "version": {
+            "requires": "3.18.1"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxkotlin",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxandroid",
+          "version": {
+            "requires": "2.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "reactive_ble_mobile_debug-1.0.aar",
+          "url": "reactive_ble_mobile_debug-1.0.aar",
+          "size": 300035,
+          "sha512": "4976b69b27e0212eb56498dd1d218e02b0a613dc8cc68211e354f4dc47570a64527f2f48f80fa3f32c6cf2fe5cc0256debf1a59a6552c2df2f0078af2dc41025",
+          "sha256": "0d90c9ab50fa93242767527c543a87148c1f490504035067796a29ed1f984834",
+          "sha1": "6f5afee360c7c8095fc317f96f2b2a59bb2ce123",
+          "md5": "bf0dd502fef2cc613fdb5bc2219f63fb"
+        }
+      ]
+    }
+  ]
+}
